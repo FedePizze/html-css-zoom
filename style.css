@@ -7,6 +7,10 @@
     color: white;
 }
 
+html{   
+    background-color: gray;
+}
+
 .flex{ 
     display: flex;
 }
@@ -54,6 +58,30 @@ header{
 
 /* inizio main */
 
+main{
+    width: 90%;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 60px 0px 110px 0px;
+}
+.profile{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 3px;
+}
+
+.mainbox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(43, 43, 43);
+    opacity: 0.8;
+    color: white;
+    font-size: 13px;
+    padding: 7px 10px;
+}
 /* fine main */
 
 
